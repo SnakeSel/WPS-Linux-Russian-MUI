@@ -1,7 +1,10 @@
 # WPS-Linux-Russian-MUI
-Русский интерфейс и проверка орфографии для WPS Linux  
 
-Пакеты взяты из Windows версии WPS.
+Русский интерфейс и проверка орфографии для WPS Linux
+
+Пакеты взяты из Windows версии WPS
+
+Текущая версия: 12.2.0.21931
 
 Описание:
  - mui - Основные файлы перевода интерфейса
@@ -22,8 +25,8 @@ git clone https://github.com/SnakeSel/WPS-Linux-Russian-MUI
 2. Запустите от root скрипт `installWPSmui.sh`
 
 ### Установка в ручном режиме
-В разным дистрибутивах путь к WPS отличается:
- - Arch: `/usr/lib/office6`
+В разных дистрибутивах путь к WPS отличается:
+ - Arch: `/usr/lib/office6` или `/opt/kingsoft/wps-office/office6` (для wps 12: wps-office-bin )
  - Debian: `/opt/Kingsoft/WPS Office/office6`
 
 **Замените далее в командах `{WPS DIR}` на путь до WPS  в вашем дистрибутиве!**
@@ -41,7 +44,7 @@ sudo cp -r dicts/ {WPS DIR}
 ```
 Для файлов проверки из LibreOffice от AOT:
 ```sh 
-sudo cp -r dicts-oat/* /usr/lib/office6/dicts
+sudo cp -r dicts-oat/* {WPS DIR}/dicts
 ```
 
 ## Установка шрифтов

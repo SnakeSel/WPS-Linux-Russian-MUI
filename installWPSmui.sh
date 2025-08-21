@@ -5,7 +5,7 @@
 baseDIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" &>/dev/null && pwd -P)
 # echo """
 
-WPSdirs=("/usr/lib/office6" "/opt/Kingsoft/WPS Office/office6")
+WPSdirs=("/usr/lib/office6" "/opt/Kingsoft/WPS Office/office6" "/opt/kingsoft/wps-office/office6" )
 
 MUIfolder=("mui/ru_RU" "addons")
 
